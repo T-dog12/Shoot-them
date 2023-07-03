@@ -10,7 +10,7 @@ public class StartUp extends JFrame{
 		this.add(new Panel());
 		this.setTitle("Shoot The Slimes");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		this.setBackground(new Color(0, 255, 0));
+		this.setBackground(new Color(179, 100, 30));
 		this.setResizable(false);
 		this.pack();
 		this.setVisible(true);
