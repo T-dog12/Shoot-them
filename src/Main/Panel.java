@@ -131,7 +131,7 @@ public class Panel extends JPanel implements Runnable, ActionListener{
 		if(!dead) {
 			try {
 				for (int p = 0; p< slimes.size(); p++) {
-					//slimes.get(p).move();
+					slimes.get(p).move();
 					
 					if(slimes.get(p).x < 30) {
 						slimes.remove(p);
